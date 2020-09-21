@@ -110,7 +110,32 @@ function click_home()
     document.getElementById('box-face').style.display = 'none';
   
   }
-
+  function click_arrow_right()
+  {
+    document.getElementById('box-home').style.display = 'none';
+    document.getElementById('box-about').style.display = 'none';
+    document.getElementById('box-curriculum').style.display = 'none';
+    document.getElementById('box-portfolio').style.display = 'none';
+    document.getElementById('box-blog').style.display = 'none';
+    document.getElementById('box-contact').style.display = 'initial';
+    document.getElementById('box-twitter').style.display = 'none';
+    document.getElementById('box-instagram').style.display = 'none';
+    document.getElementById('box-face').style.display = 'none';
+  
+  }
+  function click_arrow_left()
+  {
+    document.getElementById('box-home').style.display = 'initial';
+    document.getElementById('box-about').style.display = 'none';
+    document.getElementById('box-curriculum').style.display = 'none';
+    document.getElementById('box-portfolio').style.display = 'none';
+    document.getElementById('box-blog').style.display = 'none';
+    document.getElementById('box-contact').style.display = 'none';
+    document.getElementById('box-twitter').style.display = 'none';
+    document.getElementById('box-instagram').style.display = 'none';
+    document.getElementById('box-face').style.display = 'none';
+  
+  }  
 
 
 
